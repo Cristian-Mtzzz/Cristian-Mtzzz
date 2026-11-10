@@ -3,9 +3,12 @@
  * Sin dependencias: solo Node 18+ (fetch nativo).
  *
  * Reemplaza el contenido entre los marcadores:
- *   <!-- STATS:START -->    ... <!-- STATS:END -->
  *   <!-- LANGS:START -->    ... <!-- LANGS:END -->
  *   <!-- PROJECTS:START --> ... <!-- PROJECTS:END -->
+ *
+ * Las estadísticas generales (repos, seguidores, último commit) NO se generan
+ * aquí: son badges que consultan la API de GitHub en vivo, así que no
+ * necesitan que este script corra.
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
@@ -94,21 +97,7 @@ const langsBlock = [
   "```",
 ].join("\n");
 
-// --- estadísticas generales
 const estrellas = propios.reduce((a, r) => a + r.stargazers_count, 0);
-const lenguajePrincipal = principales[0]?.[0] ?? "—";
-
-const badge = (etiqueta, valor, color) =>
-  `![${etiqueta}](https://img.shields.io/badge/${encodeURIComponent(
-    etiqueta
-  )}-${encodeURIComponent(String(valor))}-${color}?style=flat)`;
-
-const statsBlock = [
-  badge("Repos públicos", user.public_repos, "0e75b6"),
-  badge("Estrellas", estrellas, "f1c40f"),
-  badge("Seguidores", user.followers, "9b59b6"),
-  badge("Lenguaje principal", lenguajePrincipal, "2ecc71"),
-].join("\n");
 
 // --- proyectos: los más recientes, con enlace en vivo si realmente responde
 const recientes = propios
@@ -136,7 +125,6 @@ const projectsBlock = [
 // ---------------------------------------------------------------- escribir
 
 let texto = readFileSync(README, "utf8");
-texto = reemplazar(texto, "STATS", statsBlock);
 texto = reemplazar(texto, "LANGS", langsBlock);
 texto = reemplazar(texto, "PROJECTS", projectsBlock);
 writeFileSync(README, texto);

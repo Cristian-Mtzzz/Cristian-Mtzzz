@@ -13,12 +13,10 @@ sitios responsivos y sistemas de gestión interna.
 
 ## 📊 Estadísticas
 
-<!-- STATS:START -->
-![Repos públicos](https://img.shields.io/badge/Repos%20p%C3%BAblicos-9-0e75b6?style=flat)
-![Estrellas](https://img.shields.io/badge/Estrellas-0-f1c40f?style=flat)
-![Seguidores](https://img.shields.io/badge/Seguidores-0-9b59b6?style=flat)
-![Lenguaje principal](https://img.shields.io/badge/Lenguaje%20principal-TypeScript-2ecc71?style=flat)
-<!-- STATS:END -->
+![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FCristian-Mtzzz&query=%24.public_repos&label=Repos%20p%C3%BAblicos&color=0e75b6&style=flat&logo=github)
+![Seguidores](https://img.shields.io/github/followers/Cristian-Mtzzz?label=Seguidores&color=9b59b6&style=flat)
+![Actividad](https://img.shields.io/github/commit-activity/y/Cristian-Mtzzz/Control-de-Permisos?label=Commits%2Fa%C3%B1o&color=2ecc71&style=flat)
+![Ultimo commit](https://img.shields.io/github/last-commit/Cristian-Mtzzz/Web-Taruma-Arquitectos?label=%C3%9Altimo%20commit&color=f1c40f&style=flat)
 
 <img src="https://streak-stats.demolab.com?user=Cristian-Mtzzz&theme=tokyonight&hide_border=true" alt="Racha de commits" />
 
