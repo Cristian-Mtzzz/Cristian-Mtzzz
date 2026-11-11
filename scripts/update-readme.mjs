@@ -142,11 +142,19 @@ function tarjetaSVG(filas, tema) {
 `;
 }
 
+/**
+ * Reemplaza lo que haya entre los marcadores. Si el marcador no está, se
+ * salta ese bloque sin fallar: así podés borrar una sección del README a
+ * mano y el script lo respeta en vez de romperse.
+ */
 function reemplazar(texto, marcador, contenido) {
   const re = new RegExp(
     `(<!-- ${marcador}:START -->)[\\s\\S]*?(<!-- ${marcador}:END -->)`
   );
-  if (!re.test(texto)) throw new Error(`No encontré el marcador ${marcador} en ${README}`);
+  if (!re.test(texto)) {
+    console.log(`  (sin marcador ${marcador}: esa sección se omite)`);
+    return texto;
+  }
   return texto.replace(re, `$1\n${contenido}\n$2`);
 }
 
@@ -196,10 +204,16 @@ const langsBlock = `<picture>
 
 const estrellas = propios.reduce((a, r) => a + r.stargazers_count, 0);
 
-// --- proyectos: los más recientes, con enlace en vivo si realmente responde
-const recientes = propios
-  .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
-  .slice(0, TOP_PROJECTS);
+let texto = readFileSync(README, "utf8");
+
+// --- proyectos: los más recientes, con enlace en vivo si realmente responde.
+// Solo se calcula si la sección existe en el README (se puede borrar a mano).
+const hayProyectos = texto.includes("<!-- PROJECTS:START -->");
+const recientes = hayProyectos
+  ? propios
+      .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
+      .slice(0, TOP_PROJECTS)
+  : [];
 
 const lineas = [];
 for (const r of recientes) {
@@ -221,7 +235,6 @@ const projectsBlock = [
 
 // ---------------------------------------------------------------- escribir
 
-let texto = readFileSync(README, "utf8");
 texto = reemplazar(texto, "LANGS", langsBlock);
 texto = reemplazar(texto, "PROJECTS", projectsBlock);
 writeFileSync(README, texto);

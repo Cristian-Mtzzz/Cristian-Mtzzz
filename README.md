@@ -74,4 +74,4 @@ sitios responsivos y sistemas de gestión interna.
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 
 
-<sub>Las estadísticas, los lenguajes y la lista de proyectos se regeneran solos con GitHub Actions.</sub>
+<sub>Las estadísticas se consultan en vivo; la tarjeta de lenguajes se regenera sola.</sub>
