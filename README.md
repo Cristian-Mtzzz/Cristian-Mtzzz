@@ -78,17 +78,5 @@ Otros       █░░░░░░░░░░░░░░░░░░░░░�
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05MC43NjcgMTI3LjEyNmE3Ljk2OCA3Ljk2OCAwIDAgMCA2LjM1LS4yNDRsMjYuMzUzLTEyLjY4MWE4IDggMCAwIDAgNC41My03LjIwOVYyMS4wMDlhOCA4IDAgMCAwLTQuNTMtNy4yMUw5Ny4xMTcgMS4xMmE3Ljk3IDcuOTcgMCAwIDAtOS4wOTMgMS41NDhsLTUwLjQ1IDQ2LjAyNkwxNS42IDMyLjAxM2E1LjMyOCA1LjMyOCAwIDAgMC02LjgwNy4zMDJsLTcuMDQ4IDYuNDExYTUuMzM1IDUuMzM1IDAgMCAwLS4wMDYgNy44ODhMMjAuNzk2IDY0IDEuNzQgODEuMzg3YTUuMzM2IDUuMzM2IDAgMCAwIC4wMDYgNy44ODdsNy4wNDggNi40MTFhNS4zMjcgNS4zMjcgMCAwIDAgNi44MDcuMzAzbDIxLjk3NC0xNi42OCA1MC40NSA0Ni4wMjVhNy45NiA3Ljk2IDAgMCAwIDIuNzQzIDEuNzkzWm01LjI1Mi05Mi4xODNMNTcuNzQgNjRsMzguMjggMjkuMDU4VjM0Ljk0M1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPgo%3D)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 
-## 📌 Proyectos
-
-<!-- PROJECTS:START -->
-| Proyecto | Descripción | Stack |
-|---|---|---|
-| [Web Taruma Arquitectos](https://github.com/Cristian-Mtzzz/Web-Taruma-Arquitectos) | Sitio web responsivo para Taruma Arquitectos | TypeScript |
-| [Control de Permisos](https://github.com/Cristian-Mtzzz/Control-de-Permisos) | Este es un sistema para la gestión de permisos por cada área de trabajo dentro de la empresa ihss | TypeScript |
-| [mvc Cristian M](https://github.com/Cristian-Mtzzz/mvc_Cristian-M) | MVC Negocios Web | PHP |
-| [Componentes con Less](https://github.com/Cristian-Mtzzz/Componentes-con-Less) · [ver en vivo](https://cristian-mtzzz.github.io/Componentes-con-Less/) | Ejercicio usando 5 componentes con Less | Less |
-| [Portafolio](https://github.com/Cristian-Mtzzz/Portafolio) · [ver en vivo](https://cristian-mtzzz.github.io/Portafolio/) | ejemplo de Portafolio usando Less | HTML |
-| [cafe artesanal](https://github.com/Cristian-Mtzzz/cafe-artesanal) | — | HTML |
-<!-- PROJECTS:END -->
 
 <sub>Las estadísticas, los lenguajes y la lista de proyectos se regeneran solos con GitHub Actions.</sub>
