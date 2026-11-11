@@ -2,8 +2,8 @@
 
 # Hola, llegaste al Git de Cristian 👋
 
-Estudiante y desarrollador web. Trabajo sobre todo en sistemas webs, construyendo
-sitios responsivos y sistemas de gestión interna.
+Estudiante y desarrollador web. 
+Trabajo sobre todo en sistemas webs, construyendo sitios responsivos y sistemas de gestión interna.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTE2IDNIMTJhOC45MSA4LjkxIDAgMDAtOSA4Ljh2MTA0LjQyYTguOTEgOC45MSAwIDAwOSA4Ljc4aDEwNGE4LjkzIDguOTMgMCAwMDktOC44MVYxMS43N0E4LjkzIDguOTMgMCAwMDExNiAzek0zOS4xNyAxMDdIMjEuMDZWNDguNzNoMTguMTF6bS05LTY2LjIxYTEwLjUgMTAuNSAwIDExMTAuNDktMTAuNSAxMC41IDEwLjUgMCAwMS0xMC41NCAxMC40OHpNMTA3IDEwN0g4OC44OVY3OC42NWMwLTYuNzUtLjEyLTE1LjQ0LTkuNDEtMTUuNDRzLTEwLjg3IDcuMzYtMTAuODcgMTVWMTA3SDUwLjUzVjQ4LjczaDE3LjM2djhoLjI0YzIuNDItNC41OCA4LjMyLTkuNDEgMTcuMTMtOS40MUMxMDMuNiA0Ny4yOCAxMDcgNTkuMzUgMTA3IDc1eiIvPjwvc3ZnPg%3D%3D)](https://www.linkedin.com/in/cristian-mart%C3%ADnez-a9965b2aa/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_cristian.mtzzz/)
@@ -74,4 +74,4 @@ sitios responsivos y sistemas de gestión interna.
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 
 
-<sub>Las estadísticas se consultan en vivo; la tarjeta de lenguajes se regenera sola.</sub>
+
