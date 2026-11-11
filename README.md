@@ -20,17 +20,12 @@ sitios responsivos y sistemas de gestión interna.
 
 <img src="https://streak-stats.demolab.com?user=Cristian-Mtzzz&theme=tokyonight&hide_border=true" alt="Racha de commits" />
 
-**Lenguajes más usados**
-
 <!-- LANGS:START -->
-```text
-TypeScript  █████████░░░░░░░░░░░░░░░   37.1%
-C#          ████████░░░░░░░░░░░░░░░░   34.1%
-CSS         ███░░░░░░░░░░░░░░░░░░░░░   11.2%
-PHP         ██░░░░░░░░░░░░░░░░░░░░░░    7.6%
-HTML        ██░░░░░░░░░░░░░░░░░░░░░░    6.9%
-Otros       █░░░░░░░░░░░░░░░░░░░░░░░    3.1%
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cristian-Mtzzz/Cristian-Mtzzz/main/assets/lenguajes-dark.svg?v=737594d8">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cristian-Mtzzz/Cristian-Mtzzz/main/assets/lenguajes-light.svg?v=737594d8">
+  <img alt="Lenguajes más usados" src="https://raw.githubusercontent.com/Cristian-Mtzzz/Cristian-Mtzzz/main/assets/lenguajes-light.svg?v=737594d8">
+</picture>
 <!-- LANGS:END -->
 
 ## 🛠️ Tech Stack

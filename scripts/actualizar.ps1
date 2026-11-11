@@ -26,7 +26,7 @@ try {
 
     node scripts/update-readme.mjs | ForEach-Object { Registrar $_ }
 
-    git add README.md
+    git add README.md assets
     git diff --cached --quiet
     if ($LASTEXITCODE -eq 0) {
         Registrar "sin cambios, no hay nada que publicar"
